@@ -1,12 +1,153 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 20px;
+            padding: 0;
+        }
+
+        button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+        .center {
+  margin-left: auto;
+  margin-right: auto;
+}
+       
+
+        h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        table {
+            
+            width: 50%;
+            margin-top: 20px;
+            
+            
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            color: #edf0f1;
+            text-decoration: none;
+        }
+
+        hr {
+            border: 2px solid #ddd;
+            margin-top: 20px;
+        }
+
+        a:hover {
+            color: #2b2a2a;
+        }
+    </style>
 </head>
 <body>
-    <h1> gfghgdh</h1>
-   <button> <a href="./form.html">Home</a></button>
+    <button> <a href="./form.html">Home</a></button>
+ <h2 ><b>Table</b></h2> 
+ 
+       <div   style="text-align: center; ">
+        <table class="center">
+          
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td colspan="3">Morning</td>
+                    <td>Lunch</td>
+                    <td colspan="4">Afternoon</td>
+                    <td colspan="3">Evening</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td style="width: 25px;">9-10 <br>am</td>
+                    <td style="width: 25px;">10-11<br>am</td>
+                    <td style="width: 25px;">11-12 <br>am</td>
+                    <td style="width: 25px;">1-2 <br>pm</td>
+                    <td style="width: 15px;">2-3 <br>pm</td>
+                    <td style="width: 15px;">3-4 <br>pm</td>
+                    <td style="width: 15px;">4-5 <br>pm</td>
+                    <td style="width: 85pxpx;">5-6 pm</td>
+                    <td style="width: 15px;">6-7 <br>pm</td>
+                    <td style="width: 15px;">7-8 <br>pm</td>
+                    <td style="width: 40px;">8-9 <br>pm</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Work</td>
+                    <td >Monday</td>
+                    <td colspan="3">Development Meeting</td>
+                    <td></td>
+                    <td colspan="3">Client Meeting</td>
+                    <td >Commute</td>
+                    <td colspan="3">Free</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td colspan="3">In Office</td>
+                    <td>
+                    </td>
+                    <td colspan="7">In Office</td>
+                </tr>
+                <tr>
+                    <td rowspan="2">Lecture</td>
+                    <td>Wednesday</td>
+                    <td colspan="3">CSC205</td>
+                    <td></td>
+                    <td colspan="7">Prepration</td>
+                </tr>
+                <tr>
+                    <td>Lecture</td>
+                    <td >Thursday</td>
+                    <td colspan="3">MAM200</td>
+                    <td></td>
+                    <td colspan="3">Tutorial <br>for <br>MAM200</td>
+                    <td colspan="4">Free</td>
+                </tr>
+                <tr>
+                    <td>Research</td>
+                    <td>Friday</td>
+                    <td colspan="3">Research</td>
+                    <td></td>
+                    <td colspan="7">Research</td>
+                </tr>
+            </table>
+      
+   
+    </div>
+</center>
+
+    <hr>
+    <footer style="text-align: center;">&copy;copyright2024</footer>
 </body>
 </html>
