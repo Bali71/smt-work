@@ -1,0 +1,185 @@
+.logo{
+
+    width: 20%;
+    display: inline-flex;
+    float: left;
+}
+.navbar{
+    width: 58%;
+    float: right;
+    margin-top: 1%;
+}
+.navbar a{
+    
+    float: left; 
+  display: block; 
+  color: rgb(201, 36, 36);
+  text-align: right; 
+  padding: 14px 29px; 
+  text-decoration: none;
+  
+}
+.navbar a:hover {
+    background-color: #ddd;  
+    color: black;
+ }
+ button {
+    background-color: #e08711; 
+    border: none; 
+    color: white;     
+    padding: 8px 13px;  
+    text-align: center;
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 16px;    
+    cursor: pointer;
+    border-radius: 4px; 
+  }
+  .button:hover {
+    background-color: #cc3333; 
+  }
+  input{
+    width: 10%;
+    background-color: #f8f8f8;
+    border-radius: 4px;
+    margin: 4px;
+    padding: 3px;
+    margin-top: 1.5%;
+  }
+  .box1{
+    
+    
+    text-align: center;
+    
+
+  }
+ 
+  h1{
+    font-size: 50px;
+  }
+  p{
+
+    font-size: 18px;
+  }
+ #Services{
+    text-align: center;
+
+ }
+ .dab1 {
+    width: 20%;
+    border: 1px;
+    border-style: solid;
+  border-color: black;
+  float: left;
+  margin-left: 18%;
+  border-radius: 2%;
+    
+ }
+ .dab2{
+    width: 20%;
+    border: 1px;
+    border-radius: 2%;
+    border-style: solid;
+  border-color: black;
+  float: right;
+  margin-right: 40%;
+ }
+ .dab3{
+    width: 20%;
+    border: 1px;
+    border-style: solid;
+  border-color: black;
+  float: right;
+ margin-right: 18%;
+ margin-top: -21.4%;
+ border-radius: 2%;
+
+ }
+ .no{
+    font-family: alice;
+    text-align: center;
+ }
+ .order1{
+    width: 90%;
+    margin-left: 2%;
+ }
+ .blo{
+    float: right;
+    width: 15%;
+    height: 20%;
+    margin-top: -10%;
+ }
+
+ /* form css */
+
+ input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+ 
+  
+  
+  input[type=submit] {
+    background-color:  #e08711;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #d6391e;
+  }
+  
+  .container {
+   
+    padding: 20px;
+    width: 45%;
+    
+  }
+.sect1{
+    width: 10%;
+    text-align: center;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    margin-left: 12%;
+}
+.sect2{
+    width: 10%;
+    text-align: justify;
+    float: right;
+    padding: 20px;
+    margin: 10px;
+    margin-right: 23%;
+}
+.sect3{
+    width: 10%;
+    float: left;
+    padding: 20px;
+    margin: 10px;
+    margin-left:13% ;
+    text-align: justify;
+}
+
+.foot{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+  .sub{
+    float: right;
+    width: 16%;
+    margin: 10px;
+    margin-top: 12%;
+    margin-right: 3%;
+    display: block;
+  }
+  
